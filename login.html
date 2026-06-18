@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form>
-            <label>email</label>
-            <input type="text">   <br> <br>
-            <label>password</label>
-            <input type="password">   <br> <br>
-            <button>login</button>
-            <p>new user? <a href="register.html">click here to register</a></p>
-        </form>
-    </div>
+  <div class="container-fluid text-center">
+    <h1>Login</h1>
+    <form>
+      <label  class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      <label class="form-label">Password</label>
+  <input type="Password" class="form-control" id="Password" placeholder="Password">
+      <button id ="lgn-btn" class="btn btn-primary mt-2">login</button>
+      <p>new user? <a href="register.html">click here to register</a></p>
+    </form>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
