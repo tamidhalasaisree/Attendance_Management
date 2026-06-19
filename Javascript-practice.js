@@ -1,10 +1,6 @@
-//let a=10
- //a+=10
-//console.log(a)
-//console.log(--a)
-//console.log(a)
-//const age=16
-//const licence=true
+
+const age=16
+const licence=true
 if(age>=18){
     if(licence)
        console.log("You can drive")
