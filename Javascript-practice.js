@@ -3,13 +3,17 @@
 //console.log(a)
 //console.log(--a)
 //console.log(a)
-const a=10
-const b=20
-const c=30
-if(a>b&&a>c){
-  console.log("a is greater")
-} else if(b>a&&b>c){
-  console.log("b is greater")
-} else {
-  console.log("c is greater")
-}
+const age=16
+const licence=true
+if(age>=18){
+    if(licence)
+        console.log("You can drive")
+    } else {
+        console.log("You need a valid license to drive")
+    }
+    else{
+      console.log("You are not old enough to drive)
+    }
+  
+
+
