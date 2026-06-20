@@ -172,5 +172,23 @@
 // console.log(highestoffer[0])
 // const moreplaced=placedStudentNames.filter(student => student.package >=10)
 // moreplaced.map(student=> console.log(student.name))
+// let isLiked = false;
+// let p = document.createElement("p")
+// p.innerText = "Like"
+// const container = document.getElementById("container")
+// const paragraph =document.getElementById("paragraph")
+// function heartColorChange() {
+//     const heart = document.getElementById("heart");
 
+//     if (isLiked) {
+//         heart.src = "https://cdn-icons-png.flaticon.com/512/1077/1077035.png"; // empty heart
+//         p.innerText = "like"
+//         container.appendChild(p)
+//     } else {
+//         heart.src = "https://cdn-icons-png.flaticon.com/512/833/833472.png"; // red heart
+//         p.innerText = " dislike"
+//         container.appendChild(p)
+//     }
 
+//     isLiked = !isLiked;
+// }
