@@ -80,3 +80,19 @@
 //  console.log(filter_arr)
 
 //  console.log(filter_arr.length)
+//  const marks =[25,75,30,20,82,65]
+//  const total= marks.reduce(
+//     (sum,sub)=> sum+ sub , 0
+//  )
+//  console.log(total)
+// const arr =[25,750,30,20,82,65]
+// const sotedar=arr.sort()
+// console.log(sotedar)
+// arr.sort(
+//   (a,b) => b-a
+// )
+// console.log(arr)
+// arr.sort(
+//   (a,b) => a-b
+// )
+// console.log(arr)
